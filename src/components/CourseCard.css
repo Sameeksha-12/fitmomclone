@@ -1,0 +1,99 @@
+.info{
+    padding: 4rem;
+}
+
+.card{
+    background-color: #4DB8A55C;
+    padding: 4rem 3rem;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin:2rem;
+    border-radius: 10px;
+}
+
+.card h1{
+    color:#008080;
+    font-size: 48px;
+}
+
+.card p{
+    color:#008080;
+}
+
+.left-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    padding: 2rem 0;
+    width:40rem;
+    height:40rem;
+}
+
+img:hover{
+    opacity: 0.8;
+}
+
+.buttonClass {
+    font-size:18px;
+    width:140px;
+    height:50px;
+    color:#fff;
+    font-weight:bold;
+    background:#008080;
+    border-radius: 5px;
+    border:none;
+    margin:0 5rem;
+}
+  
+.buttonClass:hover {
+    background: #fff;
+    color:black;
+  }
+
+.right-info{
+    display:flex;
+    flex-direction: column;
+}
+
+.right-info p{
+    font-size: 25px;
+    line-height: 2.5rem;
+    padding:5rem ;
+    font-weight: 500;
+}
+
+.info h1{
+    font-size: 50px;
+}
+
+@media screen and (max-width:1040px){
+    .card{
+        grid-template-columns: 1fr;
+        padding: 2rem; 
+        border-radius: 10px;
+    }
+
+    .card h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .card p{
+        font-size: 20px;
+        line-height: 28px;
+        padding:1rem;
+    }
+
+    .buttonClass{
+        margin:0 14rem;
+    }
+    .card img{
+        padding: 2rem 0;
+        width:30rem;
+        height:30rem;
+        margin:auto;
+    }
+}
+

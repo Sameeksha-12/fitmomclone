@@ -1,0 +1,42 @@
+.homebg{
+    width: 100%;
+    padding: 6rem 0;
+    background-color: black;
+    height: 100vh;
+    width:100%;
+    padding: 20% 10%;
+    background: url(C:\Users\pingi\Desktop\fitness-app\src\assets\home-bg.jpg);
+    background-size:cover;
+    background-position: center;
+    object-fit: cover;
+    opacity: 0.8;
+    
+}
+
+.text{
+    font-size: 80px;
+    font-weight: bolder;
+    align-items: center;
+    z-index:10;
+    margin:auto;   
+}
+
+.homebg p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width:1040px) {
+    .text{
+        margin:auto;
+        width:50%;
+        padding: 10px;
+        font-size: 50px;
+        margin-left: 10%;
+    }
+
+    .homebg{
+        opacity: 0.8;
+    }
+}
+

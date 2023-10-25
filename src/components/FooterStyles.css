@@ -1,0 +1,78 @@
+.footer{
+    background-color: #008080;
+    padding : 3rem 8rem;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.left-footer{
+    display: flex;
+    flex-direction: column;
+    padding:1 1rem;
+}
+
+.location{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding:1rem;
+}
+
+.phone{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding:1rem;
+}
+
+.email{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding:1rem;
+}
+
+.copyright{
+    padding: 2rem 0rem;
+}
+
+.mid-footer{
+    display:flex;
+    flex-direction: column;
+    color:white;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0 8rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-size: 1.2rem;
+    padding: 0.8rem 0;
+}
+
+.right-footer{
+    display:flex;
+    flex-direction: column;
+    padding:0 1rem;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    padding:1rem 0;
+}
+
+@media screen and (max-width:1040px) {
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+
+    .mid-footer{
+        padding:0 1rem;
+    }
+}
